@@ -5,10 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-image: url(https://www.psychologs.com/wp-content/uploads/2023/08/Hodophile-A-Person-who-Loves-to-Travel.jpg);
+            background-repeat: no-repeat;
+            
+        }
         .section1{
             border: 2px solid red;
-            background-color: blueviolet;
             height: 90vh;
+            
+        }
+        .navbar {
+            padding: 15px;
+            color: white;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            letter-spacing: 1px;
+            top: 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            color: #58a4b0;
         }
         .details-box{
             text-align: center;
@@ -18,17 +45,14 @@
             flex-wrap: wrap;
             margin-left: 140px;
             width: 80vw;
+            margin-top: 20px;
         }
         .box{
             background-color: aquamarine;
             width: 80vw;
             margin-left: 140px;
+            margin-top: 50px;
         }
-
-
-
-
-
         .box-A{
             display: flex;
             justify-content: center;
@@ -59,10 +83,13 @@
         }
         .sec4-box{
             display: flex;
+            justify-content: space-evenly; 
             margin: 10px;
             padding: 10px;
-            text-align: center;
-            
+            text-align: center;             
+            margin-left: 150px;
+            margin-right: 100px;
+            padding: 1rem 1rem 3rem 1rem;
         }
         .sec4-box1{
             background-color: green;
@@ -76,29 +103,86 @@
         .sec4-text{
             padding: 100px;
         }
+        .section5{
+            display: flex;
+            justify-content: space-around;
+            margin-left: 240px;
+            margin-right: 180px;
+        }
+        .sec5-box1{
+            height: 45vh;
+            margin-top: 16px;
+            background-color: rgb(252, 248, 248);
+            border-radius: 10px;
+            padding: 1rem 1rem 3rem 1rem;
+        }
+        .sec5-box2{
+            padding: 1rem 1rem 3rem 1rem;
+        }
+        .sec5-box3{
+            padding: 1rem 1rem 3rem 1rem;
+        }
+        .sec5-box1 button:hover{
+            background-color: greenyellow;
+        }
+        .sec5-box1 button{
+            /* align-items: center; */
+            font-size: 15px;
+            background-color: rgb(83, 220, 220);
+            height: 40px;
+            width: 15vw;
+            margin-left: 10px;
+        }
+
+        .section6{
+            flex-direction: row;
+        }
+        .sec6-text{
+            text-align: center;
+        }
+        .sec6-box{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 150px;
+            margin-right: 100px;
+            padding: 1rem 1rem 3rem 1rem;
+        }
+        .buttom{
+            border: 1px solid white;
+            background-color: rgb(230, 245, 250);
+            height: 30vh;
+        }
+        .buttom-box{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(230, 245, 250);
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
-    <div class="section1">
-        <div class="header">
-            <div class="navbar">
-              <a href="">Home</a>
-              <a href="">About</a>
-              <a href="">Services</a>
-              <a href="">Guards</a>
-              <a href="">Contact us</a>
+    <div class="main">
+        <div class="section1">
+            <div class="header">
+                <div class="navbar">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Guards</a>
+                <a href="">Contact us</a>
+                </div>
+                <div class="details-box">
+                    <h1 style="font-size: 60px;">
+                        Travel With Us
+                    </h1>
+                    <p style="font-size: 30px;">
+                        Explore the world in any direction
+                    </p>
+                    <button style="height: 40px; width: 10vw;">Buy Now</button>
+                    <button style="height: 40px; width: 10vw;">Way To Travel</button>
+                </div>
             </div>
-            <div class="details-box">
-                <h1 style="font-size: 60px;">
-                    Travel With Us
-                </h1>
-                <p style="font-size: 30px;">
-                    Explore the world in any direction
-                </p>
-                <button style="height: 40px; width: 10vw;">Buy Now</button>
-                <button style="height: 40px; width: 10vw;">Way To Travel</button>
-              </div>
-          </div>
+        </div>
     </div>
 
     <div class="section2">
@@ -168,6 +252,88 @@
         <div class="sec4-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur facilis expedita cum iste voluptate itaque doloribus molestias numquam natus voluptates, molestiae tempora praesentium ratione dicta laudantium, excepturi voluptatibus, assumenda repellendus!
             <h3>National geographic</h3>
+        </div>
+    </div>
+
+    <div class="section5">
+            <div class="sec5-box1">
+                <h1>We offer different ways to travel</h1>
+                <p>Click any text to edit or style it. Select text to insert a link. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background.</p>
+                <button>Corporate HTML templates</button>
+            </div>
+            <div class="sec5-box2">
+                <img src="https://mobirise.com/extensions/businessm4/travel-agency/assets/images/ross-parmly-25230-unsplash-1200x797.jpg" height="240px" style="border-radius: 10px;" alt="">
+                <h1>Travel by air</h1>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet. </span>
+                <p><a href="">Read More</a></p>
+            </div>
+            <div class="sec5-box3">
+                <img src="https://mobirise.com/extensions/businessm4/travel-agency/assets/images/jack-catterall-6268-unsplash-1200x800.jpg" height="240px" style="border-radius: 10px;" alt="">
+                <h1>Travel by train</h1>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet. </span>
+                <p><a href="">Read More</a></p>
+            </div>
+    </div>
+
+    <div class="section6">
+        <div class="sec6-text">
+            <h1>Read Our Blog</h1>
+            <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Officia officiis possimus
+                tempore veniam iste hic qui corrupti explicabo at error totam. </p>
+        </div>
+        <div class="sec6-box">
+            <div class="sec6-box1">
+                <img src="https://mobirise.com/extensions/businessm4/travel-agency/assets/images/khatam-tadayon-107740-1200x796.jpg" height="250px" style="border-radius: 10px;" alt="">
+                <h1>Mediterranean sea</h1>
+                <span>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet. </span>
+                <p><a href="">Read More</a></p>
+            </div>
+            <div class="sec6-box2">
+                <img src="https://mobirise.com/extensions/businessm4/travel-agency/assets/images/luca-bravo-121931-unsplash-1200x800.jpg" height="250px" style="border-radius: 10px;" alt="">
+                <h1>Lorem Ipsum</h1>
+                <span>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet. </span>
+                <p><a href="">Read More</a></p>
+            </div>
+            <div class="sec6-box3">
+                <img src="https://mobirise.com/extensions/businessm4/travel-agency/assets/images/sho-hatakeyama-117306-unsplash-1200x800.jpg" height="250px" style="border-radius: 10px;" alt="">
+                <h1>African Savannah</h1>
+                <span>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet. </span>
+                <p><a href="">Read More</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttom">
+        <div class="buttom-box">
+            <div class="buttom-box1">
+                <h2>Corporate HTML5 
+                    <br>
+                    templates</h2>
+                <p>
+                    1234 Street Name
+                    <br>
+                    City, AA 99999 
+                </p>
+            </div>
+            <div class="buttom-box2">
+                <h3>Phone</h3>
+                <p>
+                    Office :
+                    <br>
+                    +1 (0) 000 0000 001
+                </p>
+            </div>
+            <div class="buttom-box3">
+                <h3>Email </h3>
+                <p>support@mobirise.com</p>
+            </div>
+            <div class="buttom-box4">
+                <h3>Social</h3>
+                <img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png" 
+                height="45px" style="margin: 10.5px;" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" height="44px" style="margin: 9px; alt="">
+                <img src="https://static-00.iconduck.com/assets.00/social-instagram-icon-2048x2048-xuel0xhc.png" height="44px" style="margin: 9px; alt="">
+            </div>
         </div>
     </div>
 </body>
